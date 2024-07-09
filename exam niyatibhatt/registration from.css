@@ -1,0 +1,141 @@
+@font-face{
+    font-family: 'poppins';
+    src: url('./poppins/Poppins-Regular.ttf')
+    format('truetype');
+}
+@font-face{
+    font-family: 'Poppins-Light';
+    src: url('./poppins/Poppins-Light.ttf');
+}
+@font-face{
+    font-family:'Poppins-Medium';
+    src: url('poppins/Poppins-Medium.ttf');
+    
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+   
+    
+    background-image: url('Screenshot\ 2024-07-04\ 133924.png');
+    background-size: cover;
+    filter: brightness(40%);
+    display: flex;
+                   
+}
+
+.wrapper {
+    width: 450px;
+    height: 100vh;
+    top: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-left: 665px;
+}
+
+.card {
+    width: 500x;
+    height: 550px;
+    background-color: rgb(255, 254, 254);
+    border-radius: 5px;
+}
+
+.top {
+    width: 100%;
+    height: 85px;
+    font-family: 'poppins';
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+    margin-top: 20px;
+}
+
+.top>h1 {
+    margin-top: 22px;
+}
+
+.form {
+    width: 100%;
+    height: 433px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input {
+    width: 85%;
+    height: 45px;
+    border: 1px solid rgba(0, 104, 116, 0.907);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-left: 23px;
+    padding-left: 10px;
+    font-family:'Poppins-Light' ;
+}
+
+.check {
+    width: 87%;
+    height: 25px;
+    margin-left: 23px;
+   font-family: 'Poppins-Medium' ;
+   color: rgb(0, 106, 129);
+}
+
+.checkcolor{
+    color:  rgb(4, 32,77, 1) 
+}
+
+.btn {
+    width: 90%;
+    height: 45px;
+    margin-top: 20px;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+    background: rgb(0, 106, 129);
+    background: linear-gradient(90deg, rgba(0, 106, 129, 1) 9%, rgb(4, 32,77, 1) 100%);
+    margin-left: 23px;
+   
+   
+
+
+}
+
+.account {
+    
+    margin-top: 20px;
+    margin-left: 90px;
+    text-decoration: none;
+}
+.img{
+ 
+    width: 44%;
+    
+    padding-bottom: 24px;
+    
+    
+    
+}
+.rgfrom{
+    margin-top: 16px;
+    margin-bottom: 0%;
+    font-family: 'poppins';
+    color:rgb(5, 5, 113) ;
+  
+   
+}
+
+.loginnow{
+    text-decoration: none;
+    color: rgb(0, 106, 129);
+}
